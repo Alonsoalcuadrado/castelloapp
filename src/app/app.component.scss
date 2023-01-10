@@ -1,7 +1,15 @@
 section.main {
     div.navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         position: absolute;
         top: 40px;
+        right: 0;
+        width: 100%;
+        img.main-logo {
+            width: 190px;
+        }
     }
     div.main-app {
         
