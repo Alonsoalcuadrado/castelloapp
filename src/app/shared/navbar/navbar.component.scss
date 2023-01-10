@@ -1,0 +1,23 @@
+nav.main-nav {
+    display: flex;
+    justify-content: flex-end;
+    padding: 40px 100px;
+    background-color: rgba($color: #892210, $alpha: 0.4);
+    ul.nav-links {
+        display: flex;
+        align-items: center;
+        li {
+            padding: 0 16px 0 16px;
+            text-align: center;
+        }
+        display: flex;
+        list-style: none;
+        a {
+            background-color: red;
+            text-decoration: none;
+            &:hover {
+                cursor: pointer;
+            } 
+        }
+    }
+}
