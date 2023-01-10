@@ -1,0 +1,9 @@
+section.info-panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 400px;
+    padding: 40px;
+    background-color: rgba($color: #892210, $alpha: 0.4);
+}
