@@ -7,8 +7,17 @@ section.main {
         top: 40px;
         right: 0;
         width: 100%;
-        img.main-logo {
-            width: 190px;
+        .main-logo-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 90px;
+            margin-left: 40px;
+            border-radius: 5px;
+            background-color: white;
+            img.main-logo {
+                width: 190px;
+            }
         }
     }
     div.main-app {
