@@ -4,6 +4,7 @@ import { AppRoutingModule } from '../app-routing.module'
 import { NavbarComponent } from './navbar/navbar.component';
 import { InfoPanelComponent } from './info-panel/info-panel.component';
 import { ButtonComponent } from './button/button.component';
+import { InfoCardComponent } from './info-card/info-card.component'
 
 
 
@@ -12,6 +13,7 @@ import { ButtonComponent } from './button/button.component';
     NavbarComponent,
     InfoPanelComponent,
     ButtonComponent,
+    InfoCardComponent
   ],
   imports: [
     CommonModule,
@@ -20,7 +22,8 @@ import { ButtonComponent } from './button/button.component';
   exports: [
     NavbarComponent,
     InfoPanelComponent,
-    ButtonComponent
+    ButtonComponent,
+    InfoCardComponent
   ]
 })
 export class SharedModule { }

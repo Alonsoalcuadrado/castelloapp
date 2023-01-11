@@ -1,0 +1,35 @@
+section.info-card {
+    background-color: white;
+    width: 300px;
+    margin: 32px;
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 4px 4px 10px 1px rgba(0, 0, 0, 0.5);
+    .info-card__image {
+        width: 100%;
+        img {
+            width: 100%;
+            height: 200px;
+        }
+    }
+    .info-card-body {
+        padding: 24px;
+        color: black;
+        .info-card__text {
+            margin-bottom: 32px;
+            h4 {
+                font-size: 20px;
+                text-transform: uppercase;
+                margin-bottom: 12px;
+            }
+        }
+        .info-card__link {
+            a {
+                display: flex;
+                justify-content: flex-end;
+                text-decoration: none;
+                color: blue;
+            }
+        }
+    }
+}
